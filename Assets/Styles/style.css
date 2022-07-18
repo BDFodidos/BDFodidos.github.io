@@ -7,6 +7,7 @@
   header{
     background-image: url(../imagens/nuvens9.jpeg);
     color: #FFFFFF;
+    height: 23vh;
   } 
 
   /* CLASSE PARA VIDEO DE FUNDO DE UM TEXTO */
@@ -89,10 +90,10 @@ nav {
     }
     .nav-list {
       position: absolute;
-      top: 8vh;
+      top: 18vh;
       right: 0;
       width: 100vw;
-      height: 92vh;
+      height: 100vh;
       background: #23232e;
       flex-direction: column;
       align-items: center;
