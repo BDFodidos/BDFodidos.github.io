@@ -1,3 +1,17 @@
+
+:root{
+--clr-primary:#304ffe;
+--clr-primary-hover:#29e6a7;
+--clr-primary-dark:#039d69;
+--clr-gray100:#f0f7f8;
+--clr-gray200:#cfd8dc;
+--clr-gray300:#a7b7be;
+--clr-gray400:#6b7e86;
+--clr-gray500:#425a65;
+
+}
+
+
 *, *:before, *:after { 
     margin:0;
     padding:0;
@@ -9,6 +23,33 @@
     color: #FFFFFF;
     height: 23vh;
   } 
+
+
+
+.card{
+  margin: 1em;
+  display: inline-flex;
+  width: 20em;
+  flex-direction: column;
+  overflow: hidden;
+  border: 1px solid var(--clr-gray200);
+  box-shadow: 4px 4px var(--clr-gray200);
+  justify-content: space-around;
+  cursor: pointer;
+  transition: border 200ms ease-in,
+   box-shadow 200ms ease-in;
+   margin-right: 6.1em;
+}
+
+.card a{
+  color: #0429a3;
+  font-size: 1.5em;
+  
+}
+.card__image{
+  height: 12rem;
+  width: 100%;
+}
 
   /* CLASSE PARA VIDEO DE FUNDO DE UM TEXTO */
 .showcase{
@@ -41,6 +82,8 @@ a {
   text-decoration: none;
   transition: 0.3s;
 }
+
+
 
 a:hover {
   opacity: 0.7;
@@ -113,6 +156,11 @@ nav {
     transform: translateX(0);
   }
   
+.card{
+  width: 95%;
+
+}
+
   @keyframes navLinkFade {
     from {
       opacity: 0;
@@ -162,116 +210,6 @@ h1[id="titulo"] {
 
 
 
-/* card de posts em blogs */
-  .card {
-    display: inline-block;
-    margin: 3rem;
-    width: 500px;
-    height: 150px;
-    /* background-image: linear-gradient(to right, #9b0079, #6b00cf);   */
-    background-image: linear-gradient(to right, #1f1e22, #151416);
-    border-radius: 10px;
-    outline-offset: -8px;
-    box-shadow: 3px 3px 10px rgba(#FFF, #FFF, #FFF, .1);
-    position: relative;
-    overflow: hidden;
-    left: 0;
-  }
-
-  .cardmeio{
-    display: inline-flex;
-    width: 150px;
-    height: 200px;
-    /* background-image: linear-gradient(to right, #9b0079, #6b00cf);   */
-    background-image: linear-gradient(to right, #1f1e22, #151416);
-    border-radius: 10px;
-    outline-offset: -8px;
-    box-shadow: 3px 3px 10px rgba(#FFF, #FFF, #FFF, .1);
-    overflow: hidden;
-    position: absolute;
-    top: 9em;
-    left: 36.4em;
-  }
-
-.cardhome{
-  display: inline-flex;
-  margin: 3rem;
-  width: 500px;
-  height: 150px;
-  /* background-image: linear-gradient(to right, #9b0079, #6b00cf);   */
-  background-image: linear-gradient(to right, #1f1e22, #151416);
-  border-radius: 10px;
-  outline-offset: -8px;
-  box-shadow: 3px 3px 10px rgba(#FFF, #FFF, #FFF, .1);
-  position: relative;
-  overflow: hidden;
-  position: absolute;
-  right: 0;
-}
-
-  /*imagem do card*/
-  .card-image {
-    position: absolute;
-    inset: 0;
-    object-fit: cover;
-    opacity: .8;
-    transition: transform .75s;
-    
-  }
-
-  .card:hover .card-image {
-    transform: scale(1.15);
-  }
-  
-  .card-title {
-    display: inline-block;
-    position: absolute;
-    color: #ffffff;
-    font-weight: 100;
-    left: 15px;
-    bottom: 120px;
-    font-size: 15px;
-    text-shadow: none;
-    font-size: large;
-  }
-
-  .card-title-titulo{  
-  display: inline-block;
-  position: absolute;
-  color: #ffffff;
-  font-weight: 100;
-  left: 2em;
-  top: .3em;
-  font-size: 15px;
-  text-shadow: none;
-  font-size: large;
-}
-
-img[id="nuggets"]{
-  width: 400px;
-  height: 300px;
-  margin: -3em;
-  }
-
-  .card-description {
-    display: inline-block;
-    position: absolute;
-    color: #ffffff;
-    font-weight: 100;
-    left: 15px;
-    bottom: 14px;
-    font-size: 15px;
-    text-shadow: none;
-    font-size: large;
-  }
-  
-
-
-img[id="whats-image"]{
-width: 111%;
-height: 400%;
-
-}
 
 .t404, .blogtitle{
   text-align: center;
