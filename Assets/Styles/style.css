@@ -150,16 +150,18 @@ nav {
     .mobile-menu {
       display: block;
     }
+    .card{
+      width: 95%;
+    
+    }
   }
   
   .nav-list.active {
     transform: translateX(0);
+    
   }
   
-.card{
-  width: 95%;
 
-}
 
   @keyframes navLinkFade {
     from {
