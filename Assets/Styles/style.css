@@ -102,7 +102,6 @@ nav {
       transition: transform 0.3s ease-in;
     }
     .nav-list li {
-      margin-left: 0;
       opacity: 0;
     }
     .mobile-menu {
