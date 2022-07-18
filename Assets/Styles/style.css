@@ -132,6 +132,7 @@ nav {
     body {
       overflow-x: hidden;
     }
+
     .nav-list {
       position: absolute;
       top: 18vh;
@@ -153,7 +154,7 @@ nav {
     }
     .card{
       width: 70%;
-    
+      margin-right: 0;
     }
   }
   
