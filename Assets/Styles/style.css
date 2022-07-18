@@ -131,6 +131,7 @@ nav {
     
     body {
       overflow-x: hidden;
+      overflow: hidden;
     }
 
     .nav-list {
